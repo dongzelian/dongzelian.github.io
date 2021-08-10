@@ -1,375 +1,335 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--suppress HtmlUnknownTag -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
-<title>Dongze Lian's home page</title>
-<style type="text/css" media="screen">
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
-font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
-dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
-thead, tr, th, td {
-  border: 0pt none;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0pt;
-  outline-color: invert;
-  outline-style: none;
-  outline-width: 0pt;
-  padding: 0pt;
-  vertical-align: baseline;
-}
+  <head>
 
-a {
-  color: #1772d0;
-  text-decoration:none;
-}
+    <script src="js/head.js?prefix="></script>
+    <meta name="description" content="Dongze Lian is a PhD student at ShanghaiTech University.">
+    <meta name="keywords" content="Dongze,Dongze Lian,Computer Vision,Deep Learning,ShanghaiTech">
+    <title>Dongze Lian</title>
 
-a:focus, a:hover {
-  color: #f09228;
-  text-decoration:none;
-}
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <script src="js/scroll.js"></script>
+    <script async type="text/javascript" src="js/google.js"></script>
 
-a.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
+  <script src='/google_analytics_auto.js'></script></head>
 
-b.paper {
-  font-weight: bold;
-  font-size: 12pt;
-}
+  <body>
 
-* {
-  margin: 0pt;
-  padding: 0pt;
-}
+    <div class="outercontainer">
+      
+      <script src="js/header.js?prefix="></script>
+      <div class="container body">
 
-body {
-  position: relative;
-  margin: 3em auto 2em auto;
-  width: 800px;
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  background: #eee;
-}
+        <div class="content heading anchor" id="home">
+          <div class="img"><img class="img_responsive" src="images/dongzelian.jpg" alt="Photo"></div>
+          <div class="text info">
+            <h1>Dongze Lian</h1>
+            <p/>
+            <div>Ph.D. Student (Supervisor: <a href="https://sist.shanghaitech.edu.cn/sist_en/2020/0814/c7582a54772/page.htm"> Shenghua Gao</a>)</div>
+            <div>ShanghaiTech University</div>
+            <div>Email:&nbsp;</td><td>liandz [at] shanghaitech [dot] edu [dot] cn</div>
+            <p/>
+            <span><a href="https://scholar.google.com/citations?user=q-C8LqsAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a></span> / 
+            <span><a href="https://dblp.org/pid/211/7697.html">DBLP</a></span> 
+            <!-- <span><a href="papers/cv.pdf">CV</a></span> -->
+            <p/>
+          </div>
+          <div class="text topic">
+            <p/>
+            <div class="title">Research Topics</div>
+            <ul>
+              <li>Computer Vision</li>
+              <li>Deep Learning</li>
+              <ul>
+                <li><a href="#learning" onclick="showPubs(1)">Learning-based Systems</a></li>
+                <li><a href="#mass" onclick="showPubs(1)">Multi-agent Systems</a></li>
+              </ul>
+            </ul>
+            <p/>
+          </div>
+          <div class="text">
+            <p>I am a final-year Ph.D. student of <a href="https://sist.shanghaitech.edu.cn/">School of Information Science and Technology (SIST)</a> at <a href="https://www.shanghaitech.edu.cn/">ShanghaiTech University</a>, advised by Prof. <a href="https://sist.shanghaitech.edu.cn/sist_en/2020/0814/c7582a54772/page.htm">Shenghua Gao</a> at <a href="https://svip-lab.github.io/">ShanghaiTech Vision and Intelligent Perception Lab (SVIP Lab)</a>. I am interested in computer vision (<i>e.g.,</i> gaze estimation, crowd counting, object detection) and deep learning (<i>e.g.,</i> explanation, design and search of deep neural network.
 
-h2 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 15pt;
-  font-weight: 700;
-}
+            <p>Before joining ShanghaiTech University, I received my Bachelor's Degree in <a href="https://www.dlut.edu.cn/">Dalian University of Technology (DUT)</a>.</p>
+          </div>
+        </div>
 
-h4 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 13pt;
-  font-weight: 700;
-}
+        <div class="content" style="z-index:1;position:relative">
+          <div class="text">
+            <h3 style="margin-bottom:.5em">News</h3>
+            <ul style="padding-bottom:1em">
+              <li>2021/04 -- One paper accepted by ICCV 2021</li>
+              <li>2020/09 -- Started my Ph.D. program</li>
+              <li>2020/03 -- Visited <a href="https://depend.cs.uni-saarland.de/">Dependable Systems and Software group</a> at Universität des Saarlandes</li>
+ <!--              <li>2019/07 -- One paper accepted by IEEE Access 2019
+              <li>2019/02 -- Give an oral presentation of our work at AAAI 2019 at Hawaii, USA.
+              <li>2018/10 -- One paper accepted by AAAI 2019 -->
+            </ul>
+          </div>
+        </div>
 
-h3 {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
+<!--         <div class="content" style="z-index:1;position:relative">
+          <div class="text">
+            <h3 style="margin-bottom:.5em">Activities</h3>
+            <ul style="padding-bottom:1em">
+              <li>2019/07 -- Sub-reviewer of ICECCS 2019</li>
+              <li>2018/09 -- Student Volunteer at CONFESTA 2018, Beijing, China</li>
+              <li>2018/07 -- Student Volunteer at SSIST 2018, Shanghai, China</li>
+            </ul>
+          </div>
+        </div> -->
 
-strong {
-  font-family: Lato, Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
+        <div class="content anchor" id="publications">
+          <div class="text" style="z-index:1;position:relative">
+            <h3 style="margin-bottom:0em">
+              Publications 
+                (<a href="" id="select0" onclick="showPubs(0); return false;" style="text-decoration: underline; color: rgb(0, 0, 0);">show all by date</a> / 
+                <a href="" id="select1" onclick="showPubs(1); return false;">show all by topic</a>)
+            </h3>
+          </div>
+          
 
-ul {
-  list-style: circle;
-}
+          <div id="pubs"></div>
+          <script id="pubs_by_date" language="text">
+            
+            <div class="text anchor"><h4>2021</h4></div>
+           
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/learning-cav21.jpeg" style="box-shadow: 2px 2px 4px #888" alt="learning_cav21"></div>
+              <div class="text">
+                <div class="title">BDD4BNN:<br/>A BDD-based Quantitative Analysis Framework for Binarized Neural Networks</div> 
+                <div class="authors">
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="http://persistz.github.io/">Zhe Zhao</a></span>,
+                  <span class="author"><a href="http://www.guangkechen.site/">Guangke Chen</a></span>, 
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>
+                </div>
+                <div>
+                  <span class="tag">International Conference on Computer-Aided Verification (<b>CAV</b>), 2021</span> <br/>
+                  <span class="tag">[Paper] [Code]</span>
+                </div>
+                <div>
+                  <span class="highlight">To appear</span>
+                </div>
+              </div>
+            </div>
 
-img {
-  border: none;
-}
+            <div class="text anchor"><h4>2019</h4></div>
 
-li {
-  padding-bottom: 0.5em;
-  margin-left: 1.4em;
-}
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/mass-access19.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-aaai19"></div>
+              <div class="text">
+                <div class="title"><a name="mass-aaai19" href="papers/IEEEAccess19.pdf">Making Agents Abilities Explicit</a></div> 
+                <div class="authors">
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>
+                </div>
+                <div>
+                  <span class="tag">IEEE Access, 2019</span> <br/>
+                  <span class="tag"> [<a href="https://doi.org/10.1109/ACCESS.2019.2931514">Paper</a>] [<a href="https://github.com/MCMAS-ACGS/MCMAS-ACGS">Code</a>]</span>
+                </div>
+              </div>
+            </div>
 
-strong, b {
-	font-weight:bold;
-}
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/mass-aaai19.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-aaai19"></div>
+              <div class="text">
+                <div class="title"><a name="mass-aaai19" href="papers/aaai19.pdf">Probabilistic Alternating-Time Mu-Calculus</a></div> 
+                <div class="authors">
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>,
+                  <span class="author">Yu Tang</a></span>,
+                  <span class="author"><a href="http://csse.szu.edu.cn/staff/xuzw/">Zhiwu Xu</a></span>
+                  
+                </div>
+                <div>
+                  <span class="tag">Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019</span> <br/>
+                  <span class="tag"> [<a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576">Paper</a>] [<a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/PAMCSolver/">Code</a>]</span>
+                </div>
+                <div>
+                  <span class="highlight">Oral Presentation</span>
+                </div>
+              </div>
+            </div>
 
-em, i {
-	font-style:italic;
-}
+            <div class="text anchor"><h4>2018</h4></div>
+            
+            <div class="publication">
+             <div class="img"><img class="img_responsive" src="images/mass-jos18.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-jos18"></div>
+             <div class="text">
+                <div class="title"><a name="mass-jos18" href="papers/jos18.pdf">Model Checking for Heterogeneous Multi-agent Systems (In Chinese)</a></div> 
+                <div class="authors">
+                  <span class="author yd">Yedi Zhang</a></span>,
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>
+                </div>
+                <div>
+                  <span class="tag">Journal of Software (<b>JOS</b>), 2018</span> <br/>
+                  <span class="tag"> [<a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576">Paper</a>]</span>
+                </div>
+                <div>
+                  <span class="highlight">Presented on FMAC 2017</span>
+                </div>
+              </div>
+            </div>
 
-div.section {
-  clear: both;
-  margin-bottom: 1.5em;
-  background: #eee;
-}
+          </script>
 
-div.spanner {
-  clear: both;
-}
 
-div.paper {
-  clear: both;
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  border: 1px solid #ddd;
-  background: #fff;
-  padding: 1em 1em 1em 1em;
-}
 
-div.paper div {
-  padding-right: 230px;
-}
+          <script id="pubs_by_topic" language="text">
+            
+            <div class="text anchor" id="learning"><h4>Learning-based Systems</h4></div>
+            
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/learning-cav21.jpeg" style="box-shadow: 2px 2px 4px #888" alt="learning_cav21"></div>
+              <div class="text">
+                <div class="title">BDD4BNN:<br/>A BDD-based Quantitative Analysis Framework for Binarized Neural Networks</div> 
+                <div class="authors">
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="http://persistz.github.io/">Zhe Zhao</a></span>,
+                  <span class="author"><a href="http://www.guangkechen.site/">Guangke Chen</a></span>, 
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>
+                </div>
+                <div>
+                  <span class="tag">International Conference on Computer-Aided Verification (<b>CAV</b>), 2021</span> <br/>
+                  <span class="tag">[Paper] [Code]</span>
+                </div>
+                <div>
+                  <span class="highlight">To appear</span>
+                </div>
+              </div>
+            </div>
 
-div.paper div.wide {
-  padding-right: 0px;
-}
+            <div class="text anchor" id="mass"><h4>Multi-agent Systems</h4></div>
 
-img.paper {
-  margin-bottom: 0.5em;
-  float: right;
-  width: 200px;
-}
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/mass-access19.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-aaai19"></div>
+              <div class="text">
+                <div class="title"><a name="mass-aaai19" href="papers/IEEEAccess19.pdf">Making Agents Abilities Explicit</a></div> 
+                <div class="authors">
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>
+                </div>
+                <div>
+                  <span class="tag">IEEE Access, 2019</span> <br/>
+                  <span class="tag"> [<a href="https://doi.org/10.1109/ACCESS.2019.2931514">Paper</a>] [<a href="https://github.com/MCMAS-ACGS/MCMAS-ACGS">Code</a>]</span>
+                </div>
+              </div>
+            </div>
 
-span.blurb {
-  font-style:italic;
-  display:block;
-  margin-top:0.75em;
-  margin-bottom:0.5em;
-}
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/mass-aaai19.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-aaai19"></div>
+              <div class="text">
+                <div class="title"><a name="mass-aaai19" href="papers/aaai19.pdf">Probabilistic Alternating-Time Mu-Calculus</a></div> 
+                <div class="authors">
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>,
+                  <span class="author yd"><b>Yedi Zhang</b></span>,
+                  <span class="author"><a href="https://chentaolue.github.io/">Taolue Chen</a></span>,
+                  <span class="author">Yu Tang</a></span>,
+                  <span class="author"><a href="http://csse.szu.edu.cn/staff/xuzw/">Zhiwu Xu</a></span>
+                  
+                </div>
+                <div>
+                  <span class="tag">Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019</span> <br/>
+                  <span class="tag"> [<a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576">Paper</a>] [<a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/Projects/pamc/PAMCSolver/">Code</a>]</span>
+                </div>
+                <div>
+                  <span class="highlight">Oral Presentation</span>
+                </div>
+              </div>
+            </div>
 
-pre, code {
-  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
-  margin: 1em 0;
-  padding: 0;
-}
+            <div class="publication">
+             <div class="img"><img class="img_responsive" src="images/mass-jos18.jpeg" style="box-shadow: 2px 2px 4px #888" alt="mass-jos18"></div>
+             <div class="text">
+                <div class="title"><a name="mass-jos18" href="papers/jos18.pdf">Model Checking for Heterogeneous Multi-agent Systems (In Chinese)</a></div> 
+                <div class="authors">
+                  <span class="author yd">Yedi Zhang</a></span>,
+                  <span class="author"><a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Fu Song</a></span>
+                </div>
+                <div>
+                  <span class="tag">Journal of Software (<b>JOS</b>), 2018</span> <br/>
+                  <span class="tag"> [<a href="https://aaai.org/ojs/index.php/AAAI/article/view/4576">Paper</a>]</span>
+                </div>
+                <div>
+                  <span class="highlight">Presented on FMAC 2017</span>
+                </div>
+              </div>
+            </div>
 
-div.paper pre {
-  font-size: 0.9em;
-}
+            
+          </script>
 
-</style>
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-142476783-1']);
-  _gaq.push(['_trackPageview']);
+        </div>  <!-- content -->
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 
-<script type="text/javascript" src="js/hidebib.js"></script>
+        
+        <div class="content anchor" id="awardsTeaching">
+          <div class="content" style="z-index:1;position:relative">
+            
+            <div class="content" style="z-index:1;position:relative">
+            <div class="text">
+              <h3 style="margin-bottom:.5em">Teaching</h3>
+              <ul style="padding-bottom:1em">
+                <li>Teaching Assistant -- Computer Vision II at ShanghaiTech University, Spring 2020.</li>
+                <li>Teaching Assistant -- Computer Vision I at ShanghaiTech University, Fall 2019.</li>
+                <li>Teaching Assistant -- Computer Vision II at ShanghaiTech University, Spring 2018.</li>
+                <li>Teaching Assistant -- Computer Vision I at ShanghaiTech University, Fall 2017.</li>
+              </ul>
+            </div>
+          </div>
 
-<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
- rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 200px;">
-  <div style="margin: 0 auto; width: 70%; line-height: 130%;">
-    <img title="rbg" style="float: right; padding-right: .5em; height: 200px;" src="images/dongzelian.jpg" />
-    <div style="padding-left: 1em; vertical-align: top; height: 250px;">
-      <span style="font-size: 16pt; line-height: 130%;">Dongze Lian</span><br />
-      <span>Ph.D candicate</span><br />
-      <span>ShanghaiTech University</span>
-      <br />
-      <span>liandz@@shanghaitech.edu.cn</span>
-      <br />
-      <a href="https://scholar.google.com/citations?user=q-C8LqsAAAAJ&hl=zh-CN&oi=ao" target="_blank">Google scholar<img style="height: 7pt;" src="images/link.png" /></a> / <a href="Resume.pdf">cv</a>
-    </div>
-  </div>
-</div>
-
-<div style="clear: both;"><!-- page div -->
-
-<div class="section">
-<h2>About me / bio</h2>
-  <div class="paper">
-    I'm a fourth year Ph.D. student in computer science at ShanghaiTech University, advised by <a href="https://scholar.google.com/citations?user=fe-1v0MAAAAJ&hl=en">Shenghua Gao</a>. Before this, I received a BEng. Degree from Dalian University of Technology in 2016.
-  </div>
-</div>
-
-<div class="section">
-<h2 id="reports">Publications</h2>
-  <!--------------------------------------------------------------------------->
-  <!--lian2019cvpr1-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2019cvpr1">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'luowx2019cvpr1']);" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Lian_Density_Map_Regression_Guided_Detection_Network_for_RGB-D_Crowd_Counting_CVPR_2019_paper.pdf">Density Map Regression Guided Detection Network for RGB-D Crowd Counting and Localization</a><br />
-      <strong>Dongze Lian*</strong>, Jing Li*, Jia Zheng, Weixin Luo, Shenghua Gao<br />
-      CVPR 2019 /
-      <a shape="rect" href="javascript:togglebib('lian2019cvpr1')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2019cvpr1,
-    Author    = {Dongze Lian, Jing Li, Jia Zheng, Weixin Luo, Shenghua Gao},
-    Title     = {Density Map Regression Guided Detection Network for RGB-D Crowd Counting and Localization},
-    Journal   = {CVPR},
-    Year      = {2019}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
+            
+            <div class="text">
+              <h3 style="margin-bottom:.5em">Awards</h3>
+              <ul style="padding-bottom:1em">
+                <li>Outstanding Doctoral Graduates of Shanghai, 2021</li>
+                <li>Outstanding Doctoral Graduates of ShanghaiTech University, 2021</li>
+                <li>National Scholarship for Doctoral Students 2020</li>
+                <li>Outstanding Student of ShanghaiTech University, 2019 - 2020</li>
+                <li>Outstanding Student of ShanghaiTech University, 2018 - 2019</li>
+                <li>Outstanding Graduates of Dalian University of Technology, 2016</li>
+              </ul>
+            </div>
+          </div>
   
-  <!--------------------------------------------------------------------------->
-  <!--lian2019cvpr2-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2019cvpr2">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'luowx2019cvpr2']);" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Cheng_Local_to_Global_Learning_Gradually_Adding_Classes_for_Training_Deep_CVPR_2019_paper.pdf">Local to Global Learning: Gradually Adding Classes for Training Deep Neural Networks</a><br />
-      Cheng hao*, <strong>Dongze Lian*</strong>, Bowen Deng, Shenghua Gao, Tao Tan, Yanlin Geng.<br />
-      CVPR 2019 /
-      <a shape="rect" href="javascript:togglebib('lian2019cvpr2')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2019cvpr2,
-    Author    = {Cheng hao, Dongze Lian, Bowen Deng, Shenghua Gao, Tao Tan, Yanlin Geng},
-    Title     = {Local to Global Learning: Gradually Adding Classes for Training Deep Neural Networks},
-    Journal   = {CVPR},
-    Year      = {2019}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
-    <!--------------------------------------------------------------------------->
-  <!--lian2019cvpr3-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2019cvpr3">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'liandz2019cvpr3']);" href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yu_Single-Image_Piece-Wise_Planar_3D_Reconstruction_via_Associative_Embedding_CVPR_2019_paper.pdf">Single-Image Piece-wise Planar 3D Reconstruction via Associative Embedding</a><br />
-      Zehao Yu, Jia Zheng, <strong>Dongze Lian</strong>, Zihan Zhou, Shenghua Gao.<br />
-      CVPR 2019 /
-      <a shape="rect" href="javascript:togglebib('lian2019cvpr3')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2019cvpr3,
-    Author    = {Zehao Yu, Jia Zheng, Dongze Lian, Zihan Zhou, Shenghua Gao},
-    Title     = {Single-Image Piece-wise Planar 3D Reconstruction via Associative Embedding},
-    Journal   = {CVPR},
-    Year      = {2019}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
 
-  <!--------------------------------------------------------------------------->
-  <!--lian2019aaai-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2019aaai">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'luowx2019aaai']);" href="https://www.researchgate.net/profile/Ziheng_Zhang3/publication/333668241_RGBD_Based_Gaze_Estimation_via_Multi-task_CNN/links/5cfccefea6fdccd1308d9b01/RGBD-Based-Gaze-Estimation-via-Multi-task-CNN.pdf">RGBD Based Gaze Estimation via Multi-task CNN</a><br />
-      <strong>Dongze Lian*</strong>, Ziheng Zhang*, Weixin Luo, lina hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao.<br />
-      AAAI 2019 /
-      <a shape="rect" href="javascript:togglebib('lian2019aaai')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2019aaai,
-    Author    = {Dongze Lian, Ziheng Zhang, Weixin Luo, lina hu, Minye Wu, Zechao Li, Jingyi Yu, Shenghua Gao},
-    Title     = {RGBD Based Gaze Estimation via Multi-task CNN},
-    Journal   = {AAAI},
-    Year      = {2019}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
-    <!--------------------------------------------------------------------------->
-  <!--lian2018eccv-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2018eccv">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'lian2018eccv']);" href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Hao_Cheng_Evaluating_Capability_of_ECCV_2018_paper.pdf">Evaluating Capability of Deep Neural Networks for Image Classification via Mutual Information</a><br />
-      Hao Cheng, <strong>Dongze Lian</strong>, Shenghua Gao, Yanlin Geng.<br />
-      ECCV 2018 /
-      <a shape="rect" href="javascript:togglebib('lian2018eccv')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2018eccv,
-    Author    = {Hao Cheng, Dongze Lian, Shenghua Gao, Yanlin Geng},
-    Title     = {Evaluating Capability of Deep Neural Networks for Image Classification via Mutual Information},
-    Journal   = {ECCV},
-    Year      = {2018}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
 
-    <!--------------------------------------------------------------------------->
-  <!--lian2019accv-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2019accv">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'lian2019accv']);" href="https://link.springer.com/content/pdf/10.1007%2F978-3-030-20893-6_3.pdf">Believe It or Not, We Know What You Are Looking At!</a><br />
-      <strong>Dongze Lian*</strong>, Zehao Yu*, Shenghua Gao.<br />
-      ACCV 2018 /
-      <a shape="rect" href="javascript:togglebib('lian2019accv')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2019accv,
-    Author    = {Dongze Lian, Zehao Yu, Shenghua Gao},
-    Title     = {Believe It or Not, We Know What You Are Looking At!},
-    Journal   = {ACCV},
-    Year      = {2018}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
 
-  <!--------------------------------------------------------------------------->
-  <!--lian2018cvpr-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2018cvpr">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'lian2018cvpr']);" href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf">Future Frame Prediction for Anomaly Detection – A New Baseline</a><br />
-      Wen Liu*, Weixin Luo*, <strong>Dongze Lian</strong>, Shenghua Gao.<br />
-      CVPR 2018 /
-      <a shape="rect" href="javascript:togglebib('lian2018cvpr')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2018cvpr,
-    Author    = {Wen Liu, Weixin Luo, Dongze Lian, Shenghua Gao.},
-    Title     = {Future Frame Prediction for Anomaly Detection – A New Baseline},
-    Journal   = {CVPR},
-    Year      = {2018}}
-      </pre>
-    </div>
-  </div>
-  <!--------------------------------------------------------------------------->
+        </div>  
+      </div> <!-- container -->
 
-  <!--------------------------------------------------------------------------->
-  <!--lian2018tnnls-->
-  <!--------------------------------------------------------------------------->
-  <div class="paper" id="lian2018tnnls">
-    <div class="wide">
-      <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'luowx2018tnnls']);" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8454246">Multi-view Multi-task Gaze Prediction with Deep Convolutional Neural Networks.</a><br />
-      <strong>Dongze Lian</strong>, Lina Hu, Weixin Luo, Yanyu Xu, Lixin Duan, Jingyi Yu, Shenghua Gao.<br />
-      TNNLS 2018 /
-      <a shape="rect" href="javascript:togglebib('lian2018tnnls')" class="togglebib">bibtex</a>
-      <pre xml:space="preserve">
-  @article{lian2018tnnls,
-    Author    = {Dongze Lian, Shenghua Gao, Lina Hu, Weixin Luo, Yanyu Xu, Lixin Duan, Jingyi Yu.},
-    Title     = {Multi-view Multi-task Gaze Prediction with Deep Convolutional Neural Networks.},
-    Journal   = {TNNLS},
-    Year      = {2018}}
-      </pre>
+
+    </div> <!-- outer container -->
+
+    <script>showPubs(0);</script>
+    <script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+
+    <div id="footer">
+      <div id="footer-text"></div>
     </div>
-  </div>
-  <!--------------------------------------------------------------------------->
-  <!--------------------------------------------------------------------------->
+    <p><center>
+        <div id="clustrmaps-widget" style="width:5%">
+     
+        <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=Z7MMe2OLPIh0o350wTkyrisUCV4KxhV4J1xgxMwnWqM"></script>
+        <noscript><a href='https://clustrmaps.com/site/xfn5'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=pT8r_ZMBBdBPTv7KnlTCiBDylmHyi1qsWdPpY_tIlqY'/></a></noscript>
+      </div>        
+  <br>
+        &copy; Dongze Lian | Last updated: June 3 2021
+     
+  </center></p>
 </div>
-
-</div>
-
-</div><!-- close page div -->
-
-<div style="clear:both;">
-  <p align="right"><font size="2"><a href="http://jonbarron.info">I like this website</a></font></p><br />
-</div>
-
-<script xml:space="preserve" language="JavaScript">
-hideallbibs();
-hideallabs();
-</script>
-
-</body>
+  </body>
 
 </html>
